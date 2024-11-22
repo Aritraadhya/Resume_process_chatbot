@@ -1,3 +1,3 @@
 I first downloaded the resumes of candidates.The project used Azure Open AI and it uses LLM to convert human language to SQL language. It connects the database and fetched and executed the query using fetchall.The cursor stores all the details of the database.It uses streamlit to create an interface to generate and execute the SQL query after the user writes the query.As everyone not knows SQL we need to convert human lnguage to SQL language. This is ihe motive of the project.
 I had to import streamlit,openai,os and mysql.connector.st.write is used to write SQL query. 
-st.code shows generated SQL query. 
+st.code shows generated SQL query. For running the streamlit app we have to run the command streamlit run filename.py.
