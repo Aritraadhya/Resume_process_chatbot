@@ -5,9 +5,7 @@ import mysql.connector
 import pandas as pd
 
 # Set up the Azure OpenAI API configuration
-openai.api_type = "Azure"
-openai.api_base = "https://bg.openai.azure.com/"
-openai.api_version = "2022-12-01"  # or the latest version supported
+# or the latest version supported
 
 def fetch_data_from_db(sql_query):
     # Connect to MySQL database
