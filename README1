@@ -1,0 +1,5 @@
+The project downloads the csv file uploaded it to SQL and reduce the number of rows in the table.
+The table contains supermarket_sales details.
+The project then used LLM to convert human language to generate SQL query.
+The project then fetched the database using the mysql workbench details to execute the SQL query.
+The project used streamlit to create an interface for the users. 
