@@ -3,3 +3,5 @@ The table contains supermarket_sales details.
 The project then used LLM to convert human language to generate SQL query.
 The project then fetched the database using the mysql workbench details to execute the SQL query.
 The project used streamlit to create an interface for the users. 
+I had to import streamlit,openai,os and mysql.connector.st.write is used to write SQL query. 
+st.code shows generated SQL query. For running the streamlit app we have to run the command streamlit run filename.py.
